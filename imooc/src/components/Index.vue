@@ -41,6 +41,31 @@
         <read></read>
       </section>
     </div>
+    <footer class="bg-dark">
+      <div class="container">
+        <div class="footer-link">
+          <a href="#" target="_blank" title="企业合作">企业合作</a>
+          <a href="#" target="_blank" title="人才招聘">人才招聘</a>
+          <a href="#" target="_blank" title="联系我们">联系我们</a>
+          <a href="#" target="_blank" title="讲师招募">讲师招募</a>
+          <a href="#" target="_blank" title="帮助中心">帮助中心</a>
+          <a href="#" target="_blank" title="意见反馈">意见反馈</a>
+          <a href="#" target="_blank">慕课大学</a>
+          <a href="#" target="_blank">代码托管</a>
+          <a href="#" target="_blank" title="友情链接">友情链接</a>
+        </div>
+        <div class="footer-copyright">
+          <p>
+            ©
+            &nbsp;2020&nbsp;imooc.com&nbsp;&nbsp;京ICP备 12003892号-11
+            <a href="#" target="_blank" style="color:#93999F;font-size:12px;margin:0 5px !important;">
+              <i class="beian"></i>
+              京公网安备11010802030151号</a>
+            <a href="/license" target="_blank" style="color:#93999F;font-size:12px;">营业执照</a>
+          </p>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -87,6 +112,39 @@ export default {
     padding-bottom: 44px;
     box-shadow: inset 0 10px 10px -10px #dddddd, inset 0 -10px 10px -10px #eeeeee;
   }
+  footer {
+    padding: 36px 0;
+    a {
+      display: inline-block;
+      font-size: 14px;
+      color: #4D555D;
+      line-height: 28px;
+      margin: 0 36px 0 0;
+    }
+    .container {
+      width: 1152px;
+      margin: 0 auto;
+      .footer-link {
+        text-align: left;
+        border: none;
+        padding: 0;
+        a {
+          margin: 0 10px;
+          color: #99a1a6;
+        }
+      }
+      .footer-copyright {
+        font-size: 12px;
+        padding: 0;
+        padding-left: 10px;
+        text-align: left;
+        margin-top: 8px;
+        color: #93999F;
+        line-height: 24px;
+      }
+    }
+  }
+
 </style>
 
 <style lang="scss">

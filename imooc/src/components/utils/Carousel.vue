@@ -20,7 +20,7 @@
 <script>
 export default {
   name: 'Carousel',
-  data: () => {
+  data: function () {
     return {
       currentIndex: 0,
       interval: null

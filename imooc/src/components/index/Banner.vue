@@ -148,14 +148,6 @@ export default {
                 step: 5,
                 lesson: 5,
                 popularity: 13761
-              },
-              {
-                type: 'lesson',
-                title: '推荐算法理论与实践',
-                img: '/static/img/banner/lesson_3.jpg',
-                href: '#',
-                level: '中级',
-                popularity: 16790
               }
             ]
           }
@@ -238,6 +230,110 @@ export default {
                 title: '前沿技术',
                 links: [
                   {
+                    title: '区块链',
+                    href: '#'
+                  },
+                  {
+                    title: '以太坊',
+                    href: '#'
+                  },
+                  {
+                    title: '人工智能',
+                    href: '#'
+                  },
+                  {
+                    title: '机器视觉',
+                    href: '#'
+                  }
+                ]
+              }
+            ],
+            ads: [
+              {
+                type: 'lesson',
+                title: 'ElasticSearch+Spark 构造高...',
+                img: '/static/img/banner/lesson_2.png',
+                href: '#',
+                price: '348.00',
+                level: '中级',
+                popularity: 533
+              },
+              {
+                type: 'route',
+                title: '从0入门人工智能学习',
+                img: '/static/img/banner/route_1.jpg',
+                href: '#',
+                step: 5,
+                lesson: 5,
+                popularity: 13761
+              },
+              {
+                type: 'lesson',
+                title: '推荐算法理论与实践',
+                img: '/static/img/banner/lesson_3.jpg',
+                href: '#',
+                level: '中级',
+                popularity: 16790
+              }
+            ]
+          }
+        },
+        {
+          title: '前沿 / 区块链 / 人工智能',
+          card: {
+            groups: [
+              {
+                title: '前沿技术',
+                links: [
+                  {
+                    title: '微服务',
+                    href: '#'
+                  },
+                  {
+                    title: '以太坊',
+                    href: '#'
+                  },
+                  {
+                    title: '人工智能',
+                    href: '#'
+                  },
+                  {
+                    title: '机器视觉',
+                    href: '#'
+                  }
+                ]
+              }
+            ],
+            ads: [
+              {
+                type: 'lesson',
+                title: 'ElasticSearch+Spark 构造高...',
+                img: '/static/img/banner/lesson_2.png',
+                href: '#',
+                price: '348.00',
+                level: '中级',
+                popularity: 533
+              },
+              {
+                type: 'route',
+                title: '从0入门人工智能学习',
+                img: '/static/img/banner/route_1.jpg',
+                href: '#',
+                step: 5,
+                lesson: 5,
+                popularity: 13761
+              }
+            ]
+          }
+        },
+        {
+          title: '前沿 / 区块链 / 人工智能',
+          card: {
+            groups: [
+              {
+                title: '前沿技术',
+                links: [
+                  {
                     title: '微服务',
                     href: '#'
                   },
@@ -270,15 +366,6 @@ export default {
                 specOffer: true,
                 level: '初级',
                 popularity: 83
-              },
-              {
-                type: 'lesson',
-                title: 'ElasticSearch+Spark 构造高...',
-                img: '/static/img/banner/lesson_2.png',
-                href: '#',
-                price: '348.00',
-                level: '中级',
-                popularity: 533
               },
               {
                 type: 'route',
@@ -340,172 +427,6 @@ export default {
                 specOffer: true,
                 level: '初级',
                 popularity: 83
-              },
-              {
-                type: 'lesson',
-                title: 'ElasticSearch+Spark 构造高...',
-                img: '/static/img/banner/lesson_2.png',
-                href: '#',
-                price: '348.00',
-                level: '中级',
-                popularity: 533
-              },
-              {
-                type: 'route',
-                title: '从0入门人工智能学习',
-                img: '/static/img/banner/route_1.jpg',
-                href: '#',
-                step: 5,
-                lesson: 5,
-                popularity: 13761
-              },
-              {
-                type: 'lesson',
-                title: '推荐算法理论与实践',
-                img: '/static/img/banner/lesson_3.jpg',
-                href: '#',
-                level: '中级',
-                popularity: 16790
-              }
-            ]
-          }
-        },
-        {
-          title: '前沿 / 区块链 / 人工智能',
-          card: {
-            groups: [
-              {
-                title: '前沿技术',
-                links: [
-                  {
-                    title: '微服务',
-                    href: '#'
-                  },
-                  {
-                    title: '区块链',
-                    href: '#'
-                  },
-                  {
-                    title: '以太坊',
-                    href: '#'
-                  },
-                  {
-                    title: '人工智能',
-                    href: '#'
-                  },
-                  {
-                    title: '机器视觉',
-                    href: '#'
-                  }
-                ]
-              }
-            ],
-            ads: [
-              {
-                type: 'lesson',
-                title: 'JavaScript玩转机器学习 打造...',
-                img: '/static/img/banner/lesson_1.png',
-                href: '#',
-                price: '308.00',
-                specOffer: true,
-                level: '初级',
-                popularity: 83
-              },
-              {
-                type: 'lesson',
-                title: 'ElasticSearch+Spark 构造高...',
-                img: '/static/img/banner/lesson_2.png',
-                href: '#',
-                price: '348.00',
-                level: '中级',
-                popularity: 533
-              },
-              {
-                type: 'route',
-                title: '从0入门人工智能学习',
-                img: '/static/img/banner/route_1.jpg',
-                href: '#',
-                step: 5,
-                lesson: 5,
-                popularity: 13761
-              },
-              {
-                type: 'lesson',
-                title: '推荐算法理论与实践',
-                img: '/static/img/banner/lesson_3.jpg',
-                href: '#',
-                level: '中级',
-                popularity: 16790
-              }
-            ]
-          }
-        },
-        {
-          title: '前沿 / 区块链 / 人工智能',
-          card: {
-            groups: [
-              {
-                title: '前沿技术',
-                links: [
-                  {
-                    title: '微服务',
-                    href: '#'
-                  },
-                  {
-                    title: '区块链',
-                    href: '#'
-                  },
-                  {
-                    title: '以太坊',
-                    href: '#'
-                  },
-                  {
-                    title: '人工智能',
-                    href: '#'
-                  },
-                  {
-                    title: '机器视觉',
-                    href: '#'
-                  }
-                ]
-              }
-            ],
-            ads: [
-              {
-                type: 'lesson',
-                title: 'JavaScript玩转机器学习 打造...',
-                img: '/static/img/banner/lesson_1.png',
-                href: '#',
-                price: '308.00',
-                specOffer: true,
-                level: '初级',
-                popularity: 83
-              },
-              {
-                type: 'lesson',
-                title: 'ElasticSearch+Spark 构造高...',
-                img: '/static/img/banner/lesson_2.png',
-                href: '#',
-                price: '348.00',
-                level: '中级',
-                popularity: 533
-              },
-              {
-                type: 'route',
-                title: '从0入门人工智能学习',
-                img: '/static/img/banner/route_1.jpg',
-                href: '#',
-                step: 5,
-                lesson: 5,
-                popularity: 13761
-              },
-              {
-                type: 'lesson',
-                title: '推荐算法理论与实践',
-                img: '/static/img/banner/lesson_3.jpg',
-                href: '#',
-                level: '中级',
-                popularity: 16790
               }
             ]
           }
